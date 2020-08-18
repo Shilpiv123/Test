@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 
 public class FlightBooking {
 	
@@ -111,7 +112,7 @@ firstname.sendKeys(frstname);
 email.sendKeys(emailid);
 phonenumber.sendKeys(phone);
 proceed.click();
-	 Thread.sleep(5000);
+	Reporter.log("Booking details entered successfully");
 		
 	}
 
