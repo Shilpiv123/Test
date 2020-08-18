@@ -112,7 +112,7 @@ firstname.sendKeys(frstname);
 email.sendKeys(emailid);
 phonenumber.sendKeys(phone);
 proceed.click();
-	Reporter.log("Booking details added successfully");
+	Reporter.log("Flight Booking details added successfully");
 		
 	}
 
